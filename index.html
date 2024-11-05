@@ -1,0 +1,258 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="de" class="scale-content smooth-scroll">
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <meta charset="utf-8" />
+        <title>{{ site.title }}</title>
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+        />
+        <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+        <meta name="description" content="{{ site.description }}" />
+        <meta property="og:image" content="favicon.svg" />
+        <style>
+            @font-face {
+                font-family: "Syne";
+                font-style: normal;
+                font-weight: 400 800;
+                font-display: swap;
+                src: url("font.woff2") format('woff2');
+            }
+            
+            .curlyframework {
+                --fontname: "Syne", sans-serif;
+
+                --typo-5: 3rem;
+            }
+
+            .eyes__hover--1:hover ~ .icon .eyes .pupils {
+                --eyes-top: -20%;
+                --eyes-left: -7%;
+            }
+
+            .eyes__hover--2:hover ~ .icon .eyes .pupils {
+                --eyes-top: -20%;
+                --eyes-left: 0%;
+            }
+
+            .eyes__hover--3:hover ~ .icon .eyes .pupils {
+                --eyes-top: -20%;
+                --eyes-left: 7%;
+            }
+
+            .eyes__hover--4:hover ~ .icon .eyes .pupils {
+                --eyes-top: 0%;
+                --eyes-left: -10%;
+            }
+
+            .eyes__hover--6:hover ~ .icon .eyes .pupils {
+                --eyes-top: 0%;
+                --eyes-left: 10%;
+            }
+
+            .eyes__hover--7:hover ~ .icon .eyes .pupils {
+                --eyes-top: 20%;
+                --eyes-left: -7%;
+            }
+
+            .eyes__hover--8:hover ~ .icon .eyes .pupils {
+                --eyes-top: 20%;
+                --eyes-left: 0%;
+            }
+
+            .eyes__hover--9:hover ~ .icon .eyes .pupils {
+                --eyes-top: 20%;
+                --eyes-left: 7%;
+            }
+            
+            a[href$=".pdf"]:after {
+                content: " 📄";
+            }
+        </style>
+    </head>
+    <body
+        x-data
+        class="curlyframework dg cols-12 bg"
+        style="
+            background-color: #8ec5fc;
+            background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+        "
+    >
+        <p class="fixed top-0 left-0 z-1 flex g3 m3">
+            <a href="#info" class="db ph3 pv1 bg-white br5"> Info </a>
+            <a href="#archiv" class="db ph3 pv1 bg-white br5"> Rückblick </a>
+            <a href="https://signal.group/#CjQKIDbTfUYmRkmbXcUgmYd4pkv1EOSoT416FxAkJy60yZrJEhCaTd-P8J5Xd8WxQVEF-vxn" target="_blank" class="db ph3 pv1 bg-white br5"> <span class="clip">Signal Gruppe</span> <span aria-hidden="true">💬</span> </a>
+        </p>
+        <p class="fixed top-0-m right-0 bottom-0 z-1 m3 pointer-events-none">
+            <span class="db ph3 pv1 bg-blue-9 br5">
+                {{ site.nextdate }}
+            </span>
+        </p>
+        <div
+            class="eyes subgrid col-full justify-center items-center w-100"
+            style="height: 77dvh"
+        >
+            <div
+                class="eyes__hover eyes__hover--1 start-1 end-5 row-start-1 h-100"
+            ></div>
+            <div
+                class="eyes__hover eyes__hover--2 start-5 end-9 row-start-1 h-100"
+            ></div>
+            <div
+                class="eyes__hover eyes__hover--3 start-9 end-last row-start-1 h-100"
+            ></div>
+            <div
+                class="eyes__hover eyes__hover--4 start-1 end-5 row-start-2 h-100"
+            ></div>
+            <div
+                class="eyes__hover eyes__hover--5 start-5 end-9 row-start-2 h-100"
+            ></div>
+            <div
+                class="eyes__hover eyes__hover--6 start-9 end-last row-start-2 h-100"
+            ></div>
+            <div
+                class="eyes__hover eyes__hover--7 start-1 end-5 row-start-3 h-100"
+            ></div>
+            <div
+                class="eyes__hover eyes__hover--8 start-5 end-9 row-start-3 h-100"
+            ></div>
+            <div
+                class="eyes__hover eyes__hover--9 start-9 end-last row-start-3 h-100"
+            ></div>
+            <div
+                class="icon start-3 start-7-m end-11 end-10-m row-start-2 row-end-2 vh-50"
+            >
+                <svg class="eyes" viewBox="0 0 251.761 302.022">
+                    <g id="outlines">
+                        <ellipse
+                            cx="58.91"
+                            cy="151.011"
+                            rx="56.41"
+                            ry="148.511"
+                            fill="#fff"
+                            stroke="none"
+                            stroke-miterlimit="10"
+                            stroke-width="5"
+                        />
+                        <ellipse
+                            cx="192.851"
+                            cy="151.011"
+                            rx="56.41"
+                            ry="148.511"
+                            fill="#fff"
+                            stroke="none"
+                            stroke-miterlimit="10"
+                            stroke-width="5"
+                        />
+                    </g>
+                    <g
+                        class="pupils transition-small"
+                        style="
+                            transform: translate(
+                                var(--eyes-left, 0),
+                                var(--eyes-top, 0)
+                            );
+                        "
+                    >
+                        <ellipse
+                            cx="59.846"
+                            cy="151.011"
+                            rx="22.394"
+                            ry="58.956"
+                        />
+                        <ellipse
+                            cx="193.787"
+                            cy="151.011"
+                            rx="22.394"
+                            ry="58.956"
+                        />
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <div
+            class="subgrid col-full relative f2 f5-m lh-title black pv5 bg-blue-11"
+        >
+            <div class="start-2 end-11 end-10-m">
+                <h1 id="info" class="b mt0 mb3">
+                    <strong>{{ site.title }}</strong> &horbar; {{ site.description }}
+                </h1>
+                <p class="b text-balance m0">
+                    {{ site.introtext }}
+                </p>
+            </div>
+            <div
+                class="start-2 end-11 end-last-m flex flex-wrap items-baseline g2 gh4-m mt5 mt6-m"
+            >
+                <h2 id="archiv" class="w-100 w-auto-m lh-solid b m0"><strong>Rückblick</strong></h2>
+                
+                <ul class="list dc">
+                    {% for meetup in site.meetups %}
+                        <li>
+                            <button
+                                popovertarget="archive{{ meetup.idx }}"
+                                class="pointer f1 f4-m tl ph3 bg-white bn br6"
+                            >
+                                {{ meetup.title }}
+                                <span class="blue-4">#{{ meetup.idx }}</span>
+                            </button>
+                        </li>
+                    {% endfor %}
+                </ul>                
+                {% for meetup in site.meetups %}
+                    <div
+                        id="archive{{ meetup.idx }}"
+                        aria-modal="true"
+                        class="w-80 w-50-m h-50 f2 p3 p5-m bg-white bg-blur bn br4"
+                        popover
+                    >
+                        <h2 class="f3 f4-m lh-title b mt4">
+                            <span class="db blue-4">{{ meetup.title }}</span>
+                            Pixeltalk #{{ meetup.idx }} am {{ meetup.date | date: "%d.%m.%Y" }} bei <a href="{{ meetup.placeurl }}" target="_blank" class="underline">{{ meetup.place }}</a>
+                        </h2>
+                        <div class="richtext f1 f3-m">
+                            {{ meetup.content | replace: '<a', '<a target="_blank"' }}
+                        </div>
+                        <button
+                            popovertarget="archive{{ meetup.idx }}"
+                            popovertargetaction="hide"
+                            class="pointer fixed top-0 right-0 f5 blue-4 p0 mr3 mt2-m mr4-m bg-transparent bn"
+                        >
+                            <span class="clip">schließen</span>
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                {% endfor %}
+            </div>
+            <p class="start-2 end-12 end-last-m f1 mt5">
+                Initiert und organisiert von
+                <a
+                    href="https://www.diesuperpixel.de"
+                    target="_blank"
+                    class="underline"
+                    >die superpixel</a
+                >
+                und
+                <a href="https://robole.de" target="_blank" class="underline"
+                    >robole</a
+                >. Hosted on
+                <a
+                    href="https://github.com/pixeltalkleipzig"
+                    target="_blank"
+                    class="underline"
+                    >GitHub</a
+                >. Infos zu
+                <a
+                    href="https://jens-wittmann.de/#kontakt"
+                    target="_blank"
+                    class="underline"
+                    >Impressum & Datenschutz</a
+                >.
+            </p>
+        </div>
+    </body>
+</html>
