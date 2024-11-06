@@ -1,3 +1,3 @@
 ## Pixeltalk Leipzig
 
-Alles Infos hier: [pixeltalk-leipzig.github.io/website](https://pixeltalk-leipzig.github.io/website)
+Alles Infos hier: [pixeltalk.io](https://pixeltalk.io)
