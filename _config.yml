@@ -27,7 +27,7 @@ introtext: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pixeltalk.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-nextdate: Mi 27.11. 🍹 Feinkost
+nextdate: Mi 29.1. 🧨
 
 collections:
   meetups:
