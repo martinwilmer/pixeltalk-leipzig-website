@@ -86,11 +86,63 @@
             background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
         "
     >
-        <p class="fixed top-0 left-0 z-1 flex g3 m3">
-            <a href="#info" class="db ph3 pv1 bg-white br5"> Info </a>
-            <a href="#archiv" class="db ph3 pv1 bg-white br5"> Rückblick </a>
-            <a href="https://signal.group/#CjQKIDbTfUYmRkmbXcUgmYd4pkv1EOSoT416FxAkJy60yZrJEhCaTd-P8J5Xd8WxQVEF-vxn" target="_blank" class="db ph3 pv1 bg-white br5"> <span class="clip">Signal Gruppe</span> <span aria-hidden="true">💬</span> </a>
-        </p>
+        <nav class="fixed top-0 left-0 z-1">
+            <ul class="list flex g3 p0 m3">
+                <li>
+                    <a href="#info" class="db lh-copy ph3 pv1 bg-white br5"> Info </a>
+                </li>
+                <li>
+                    <a href="#archiv" class="db lh-copy ph3 pv1 bg-white br5"> Rückblick </a>
+                </li>
+                <li>
+                    <button popovertarget="subnav" class="pointer db lh-copy ph3 pv1 bg-white bn br5"> Austausch </button>
+                </li>
+            </ul>
+        </nav>
+        <div
+            id="subnav"
+            aria-modal="true"
+            class="w-90 w-40-m f2 p4 bg-white bg-blur bn br4"
+            popover
+        >
+            <ul class="list flex flex-column g4 lh-title p0 m0">
+                <li>
+                    <a href="https://signal.group/#CjQKIDbTfUYmRkmbXcUgmYd4pkv1EOSoT416FxAkJy60yZrJEhCaTd-P8J5Xd8WxQVEF-vxn" target="_blank" class="db">
+                        <span class="db f4 b blue-4">
+                            <span class="underline">Chat</span>
+                            <span aria-hidden="true">👋</span>
+                        </span>
+                        Austausch über Signal Gruppe
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Pixeltalk-Leipzig/website/discussions" target="_blank" class="db">
+                        <span class="db f4 b blue-4">
+                            <span class="underline">Discussions</span>
+                            <span aria-hidden="true">💬</span>
+                        </span>
+                        Planung der nächsten Themen auf GitHub
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/events/pixeltalk-87276922528407666689/" target="_blank" class="db">
+                        <span class="db f4 b blue-4">
+                            <span class="underline">Social</span>
+                            <span aria-hidden="true">📅</span>
+                        </span>
+                        Unser nächstes Event auf LinkedIn
+                    </a>
+                </li>
+            </ul>
+            <button
+                popovertarget="archive{{ meetup.idx }}"
+                popovertargetaction="hide"
+                aria-label="schließen"
+                class="pointer fixed top-0 right-0 f5 blue-4 p0 mr3 mt2-m mr4-m bg-transparent bn"
+            >
+                <span aria-hidden="true">×</span>
+            </button>
+        </div>
         <p class="fixed top-0-m right-0 bottom-0 z-1 m3 pointer-events-none">
             <span class="db ph3 pv1 bg-blue-9 br5">
                 {{ site.nextdate }}
