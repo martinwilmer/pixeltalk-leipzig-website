@@ -28,7 +28,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pixeltalk.io" # the base hostname & protocol for your site, e.g. http://example.com
 url_subnav_signal: "https://signal.group/#CjQKIDbTfUYmRkmbXcUgmYd4pkv1EOSoT416FxAkJy60yZrJEhCaTd-P8J5Xd8WxQVEF-vxn"
 url_subnav_github: "https://github.com/Pixeltalk-Leipzig/website/discussions"
-url_subnav_linkedin: "https://www.linkedin.com/events/pixeltalk-87276922528407666689/"
+url_subnav_linkedin: "https://www.linkedin.com/events/pixeltalk-97304933438841577472/"
 url_subnav_betterplace: "https://www.betterplace.me/pixeltalk-leipzig"
 
 nextdate: Mi<span class="clip">ttwoch</span> <span class="clip">Abgesagter Termin</span> <span style="text-decoration:line-through">26.2.</span> <span class="clip">Neuer Termin</span> 12.3. <span aria-hidden="true">🍹</span><span class="clip">im</span> Basislager
