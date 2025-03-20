@@ -20,7 +20,7 @@
                 font-style: normal;
                 font-weight: 400 800;
                 font-display: swap;
-                src: url("font.woff2") format('woff2');
+                src: url("font.woff2") format("woff2");
             }
             
             .curlyframework {
@@ -152,11 +152,33 @@
                 <span aria-hidden="true">×</span>
             </button>
         </div>
-        <p class="fixed top-0-m right-0 bottom-0 z-1 m3 pointer-events-none">
-            <span class="db ph3 pv1 bg-blue-9 br5">
-                {{ site.nextdate }}
-            </span>
-        </p>
+        <button popovertarget="dateinfo" class="date fixed right-0 bottom-0 z-1 db lh-copy ph3 pv1 m3 bg-blue-9 bn br5">
+            {{ site.date_next }} <span aria-hidden="true">🍹</span><span class="clip">im</span> {{ site.date_place }}
+        </button>
+        <div
+            id="dateinfo"
+            aria-modal="true"
+            class="w-80 w-50-m h-50 f2 p3 p5-m bg-white bg-blur bn br4"
+            popover
+        >
+            <h2 class="f3 f4-m lh-title b mt4">
+                <span class="db blue-4">{{ site.date_title }}</span>
+                Pixeltalk #{{ site.date_idx }}
+                am {{ site.date_next }}
+                im <a href="{{ site.date_place_url }}" target="_blank" class="underline">{{ site.date_place }}</a>
+            </h2>
+            <div class="richtext f1 f3-m">
+                {{ site.date_desc }}
+            </div>
+            <button
+                popovertarget="dateinfo"
+                popovertargetaction="hide"
+                aria-label="schließen"
+                class="pointer fixed top-0 right-0 f5 blue-4 p0 mr3 mt2-m mr4-m bg-transparent bn"
+            >
+                <span aria-hidden="true">×</span>
+            </button>
+        </div>
         <div
             class="eyes subgrid col-full justify-center items-center w-100"
             style="height: 77dvh"

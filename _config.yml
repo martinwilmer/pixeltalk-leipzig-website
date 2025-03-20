@@ -31,7 +31,12 @@ url_subnav_github: "https://github.com/Pixeltalk-Leipzig/website/discussions"
 url_subnav_linkedin: "https://www.linkedin.com/events/pixeltalk-97304933438841577472/"
 url_subnav_betterplace: "https://www.betterplace.me/pixeltalk-leipzig"
 
-nextdate: Mi 30.4. <span aria-hidden="true">🍹</span><span class="clip">im</span> Basislager
+date_idx: 10
+date_next: Mi 30.4.
+date_place: Basislager
+date_place_url: https://www.basislager.co
+date_title: Pixeltalk × Kirby Meetup
+date_desc: Die 10. Ausgabe des Pixeltalks. Diesmal zusammen mit dem Kirby Meetup Leipzig. Es gibt einen kleinen Impulsvortrag von <a href="https://webgefrickel.de" target="_blank" class="underline">Steffen Rademacker</a> zu <a href="https://getkirby.com" target="_blank" class="underline">Kirby CMS</a>. More soon!
 
 collections:
   meetups:
