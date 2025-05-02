@@ -28,15 +28,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pixeltalk.io" # the base hostname & protocol for your site, e.g. http://example.com
 url_subnav_signal: "https://signal.group/#CjQKIDbTfUYmRkmbXcUgmYd4pkv1EOSoT416FxAkJy60yZrJEhCaTd-P8J5Xd8WxQVEF-vxn"
 url_subnav_github: "https://github.com/Pixeltalk-Leipzig/website/discussions"
-url_subnav_linkedin: "https://www.linkedin.com/events/pixeltalk10-kirbymeetup7316730229593436160/"
+url_subnav_linkedin: "https://www.linkedin.com/events/pixeltalk-97304933438841577472/"
 url_subnav_betterplace: "https://www.betterplace.me/pixeltalk-leipzig"
 
-date_idx: 10
-date_next: Mi 30.4. 19:00
-date_place: Unite
-date_place_url: https://maps.app.goo.gl/dPAFC27gGBMKcBbL7?g_st=ac
-date_title: Pixeltalk × Kirby Meetup
-date_desc: Die 10. Ausgabe des Pixeltalks. Diesmal zusammen mit dem Kirby Meetup Leipzig. Es gibt einen kleinen Impulsvortrag von <a href="https://webgefrickel.de" target="_blank" class="underline">Steffen</a> zusammen mit Einblicken von <a href="https://www.scheinundsein.de" target="_blank" class="underline">Anne</a> und <a href="https://www.falk-m.de" target="_blank" class="underline">Falk</a> zu <a href="https://getkirby.com" target="_blank" class="underline">Kirby CMS</a>.
+date_idx: 11
+date_next: Mi 28.5. 19:00
+date_place: Basislager
+date_place_url: https://www.basislager.co
+date_title: Coding mit KI
+date_desc: Diesmal geht es um das Coden mit KI. Welche Tools benutzt ihr? Show and tell willkommen.
 
 collections:
   meetups:
