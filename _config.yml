@@ -31,12 +31,12 @@ url_subnav_github: "https://github.com/Pixeltalk-Leipzig/website/discussions"
 url_subnav_linkedin: "https://www.linkedin.com/events/7338506509988864000/"
 url_subnav_betterplace: "https://www.betterplace.me/pixeltalk-leipzig"
 
-date_idx: 12
-date_next: Mi 25.6. 19:00
-date_place: Basislager
-date_place_url: https://www.basislager.co
-date_title: Pixeltalk × Kirby Meetup Leipzig #2
-date_desc: Barrierefreiheit – Wie ist euer aktueller Stand? Lockerer Austausch zu konkreten design- und technischen Problemlösungen hin zur barrierearmen Webseite mit Kirby und Co.
+date_idx: 13
+date_next: Mi 30.6. 19:00
+date_place: Caracan
+date_place_url: https://www.caracan.de
+date_title: Biergarten
+date_desc: Austausch zu Webthemen bei einem kühlem Getränk. Show and tell willkommen.
 
 collections:
   meetups:
