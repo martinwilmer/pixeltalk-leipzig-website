@@ -28,15 +28,15 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://pixeltalk.io" # the base hostname & protocol for your site, e.g. http://example.com
 url_subnav_signal: "https://signal.group/#CjQKIDbTfUYmRkmbXcUgmYd4pkv1EOSoT416FxAkJy60yZrJEhCaTd-P8J5Xd8WxQVEF-vxn"
 url_subnav_github: "https://github.com/Pixeltalk-Leipzig/website/discussions"
-url_subnav_linkedin: "https://www.linkedin.com/events/7354814910209351681/"
+url_subnav_linkedin: "https://www.linkedin.com/events/7364571073738121217/"
 url_subnav_betterplace: "https://www.betterplace.me/pixeltalk-leipzig"
 
-date_idx: 13
-date_next: Mi 30.7. 19:00
-date_place: Caracan
-date_place_url: https://www.caracan.de
-date_title: Webiergarten
-date_desc: Austausch zu Webthemen bei einem kühlem Getränk. Show and tell willkommen.
+date_idx: 14
+date_next: Mi 27.8. 19:00
+date_place: Basislager
+date_place_url: https://basislager.co
+date_title: No-Code Tools
+date_desc: Diesmal zum Thema Webdesign mit No-Code Tools – interessant für Designer und Coder. <a href="https://dreier.studio">Patric Dreier</a> und Sainalabidin Al-Saadi geben uns einen Einblick in <a href="https://webflow.com/">Webflow</a> und <a href="https://framer.com/">Framer</a>, zeigen die jeweiligen Stärken und Schwächen der Tools und stellen einige aktuelle Design-Projekte vor.
 
 collections:
   meetups:
